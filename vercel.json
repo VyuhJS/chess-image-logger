@@ -1,0 +1,9 @@
+{
+    "routes": [
+      {
+        "src": "/poc.png",
+        "dest": "/api/logger.js"
+      }
+    ]
+  }
+  

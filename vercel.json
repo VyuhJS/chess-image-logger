@@ -3,8 +3,15 @@
     {
       "src": "/poc.png",
       "dest": "/api/logger.js"
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "headers": {
+        "Content-Type": "text/plain"
+      },
+      "dest": "/api/logger.js"
     }
   ]
 }
-
   
